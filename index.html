@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1 class="wel">Welcome to My Personal Info Page</h1>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="home">
+      <h2 class="name">Chankhemara Srun</h2>
+    </div>
+
+    <div id="about">
+      <div class="infor">
+        <div>
+          <h2 class="txt">About Me</h2>
+          <p class="abt-me">
+            I graduated from high school in 2023 and am now studying Software
+            Engineering at KIT with a strong passion for cybersecurity. My goal
+            is to become Head of Cybersecurity Solutions, and I’m building my
+            skills through hands-on projects and continuous learning, focusing
+            on protecting systems, networks, and data. I live by the belief that
+            you only get out of life what you’re prepared to put in, and I apply
+            that mindset to everything I do.
+          </p>
+        </div>
+        <figure class="image">
+          <img src="/img/Srun Chankhemara .jpg" alt="profile" />
+        </figure>
+      </div>
+
+      <div>
+        <table class="style-table">
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Major</th>
+            <th>Email</th>
+          </tr>
+          <tr>
+            <td>1702250027</td>
+            <td>Srun Chankhemara</td>
+            <td>Software Engineering</td>
+            <td>srun.chankhemara25@kit.edu.kh</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="contact">
+      <fieldset class="form-style">
+        <h2>Fill Your Information</h2>
+        <form>
+          <label for="fname">First Name :</label>
+          <input
+            type="text"
+            placeholder="first name"
+            maxlength="30"
+            id="fname" /><br /><br />
+
+          <label for="lname">Last Name :</label>
+          <input
+            type="text"
+            placeholder="last name"
+            maxlength="30"
+            id="lname" /><br /><br />
+
+          <label for="password">Password :</label>
+          <input
+            type="password"
+            placeholder="password"
+            maxlength="16"
+            id="password" /><br /><br />
+
+          <label>Gender :</label>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="Male" />
+          <label for="female">Female</label>
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="Female" /><br /><br />
+
+          <label for="tel">Tel :</label>
+          <input
+            type="tel"
+            id="tel"
+            placeholder="number"
+            maxlength="16" /><br /><br />
+
+          <label for="date">Date :</label>
+          <input type="date" id="date" /><br /><br />
+
+          <label for="address">Address :</label>
+          <textarea
+            id="address"
+            placeholder="address"
+            resize="vertical"></textarea
+          ><br /><br />
+
+          <label for="country">Country:</label>
+          <select id="country" name="country">
+            <option value="" selected>Select</option>
+            <option value="Brunei Darussalam">Brunei Darussalam</option>
+            <option value="Cambodia">Cambodia</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Laos">Laos</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Myanmar">Myanmar</option>
+            <option value="Philippines">Philippines</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Vietnam">Vietnam</option></select
+          ><br /><br />
+
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </form>
+      </fieldset>
+    </div>
+    <footer>
+      <p>© 2025 Srun Chankhemara. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
